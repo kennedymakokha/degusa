@@ -34,6 +34,23 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row align-items-center" style={{ paddingTop: '0px', marginTop: '0px' }}>
+                    <div className="col-12 d-lg-none" style={{ backgroundColor: 'red' }}>
+                        <figure className="about-thumb">
+                            <img src={require('../../../assets/img/next/' + aboutData.thumb)} alt="Businex-About" />
+                        </figure>
+                    </div>
+
+                    <div className="col-lg-6">
+                        <div className="about-content about-content--2">
+                            <h6>{aboutData.title}</h6>
+                            <h2>{parse(aboutData.heading)}</h2>
+                            <span className="about-since">{aboutData.since}</span>
+                            <p>{parse(aboutData.text)}</p>
+                            <Link to={`${process.env.PUBLIC_URL + aboutData.btnLink}`} className="btn-about">{aboutData.btnText} <i className="fa fa-angle-double-right" /></Link>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
