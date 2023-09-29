@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "link": "/",
+    "megaMenu": false
+  },
+  {
+    "id": 2,
+    "title": "About",
+    "link": "/about",
+    "megaMenu": false,
+    "subMenu": false
+  },
+  {
+    "id": 3,
+    "title": "Services",
+    "link": "/services",
+    "megaMenu": false,
+    "subMenu": false
+  },
+
+  {
+    "id": 5,
+    "title": "Projects",
+    "link": "/our-projects",
+    "megaMenu": false
+  },
+  {
+    "id": 6,
+    "title": "Contact",
+    "link": "/contact"
+  }
+]

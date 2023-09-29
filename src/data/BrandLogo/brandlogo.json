@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "logoSrc": "/img-1.png",
+    "URL": "/"
+  },
+  {
+    "id": 2,
+    "logoSrc": "/img-2.png",
+    "URL": "/"
+  },
+  {
+    "id": 3,
+    "logoSrc": "/img-1.png",
+    "URL": "/"
+  },
+  {
+    "id": 4,
+    "logoSrc": "/img-2.png",
+    "URL": "/"
+  },
+  {
+    "id": 5,
+    "logoSrc": "/img-1.png",
+    "URL": "/"
+  }
+]

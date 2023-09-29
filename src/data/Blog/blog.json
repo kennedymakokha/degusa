@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "title": "New Business Strategy",
+    "excerpt": "We have great creative team they always ready to helped you. voluptatem quiase voluptase aspernatur auted fugit",
+    "thumb": "about_logo.jpg",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p> <blockquote class='blockquote'><p>dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p></blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p>",
+    "publishDate": "Feb 01, 2020",
+    "author": {
+      "name": "Alex Tuntuni",
+      "designation": "Content Writer",
+      "proPic": "about_logo.jpg",
+      "socials": {
+        "facebook": "hasthemes",
+        "twitter": "hasthemes",
+        "linkedin": "hasthemes"
+      }
+    }
+  }
+ 
+]
