@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 
 const BlogItemList = (props) => {
-    const blogURL = `/blog/${props.title.split(' ').join('-').toLocaleLowerCase()}?id=${props.id}`;
+    const blogURL = `/project/${props.title.split(' ').join('-').toLocaleLowerCase()}?id=${props.id}`;
     return (
         <div className="blog-item">
             <div className="row align-items-center">
@@ -23,8 +23,8 @@ const BlogItemList = (props) => {
                         <p>{props.excerpt}</p>
 
                         <div className="blog-meta">
-                            <Link to={`${process.env.PUBLIC_URL + blogURL}`}>By: {props.postBy}</Link>
-                            <Link to={`${process.env.PUBLIC_URL + blogURL}`}>{props.date}</Link>
+                            {/* <Link to={`${process.env.PUBLIC_URL + blogURL}`}>By: {props.postBy}</Link>
+                            <Link to={`${process.env.PUBLIC_URL + blogURL}`}>{props.date}</Link> */}
                         </div>
                     </div>
                 </div>

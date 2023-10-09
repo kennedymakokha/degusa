@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react';
+import React, { Fragment } from 'react';
 import Header from "../components/Header";
 import PageHeader from "../components/PageHeader";
 import About from "../components/About/page";
@@ -15,25 +15,25 @@ import ServiceThumb from '../assets/img/about.jpg'
 const PageTeam = () => {
     return (
         <Fragment>
-            <Header/>
+            <Header />
             <PageHeader
-                bgImg={require('../assets/img/page-header.jpg')}
-                title="KNOW ABOUT BUSINEX THE ULTIMATE TEAM"
-                content="Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
+                bgImg={require('../assets/img/bc.jpg')}
+                title="KNOW ABOUT Our TEAM"
+                content="Degusagoldhandelag always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly."
             />
             <About
                 title={'Our Team'}
                 heading="Meet Our <br/> Expert Member"
                 thumb={ServiceThumb}
-                content="<b>Businex</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+                content="<b>Degusagoldhandelag</b> always try to provide the best Business Solutions for Clinets to grow up their Business very sharply and smoothly. We voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
             />
-            <TeamMember/>
-            <BrandLogo/>
-            <Funfact classes="sp-top"/>
-            <CallToAction/>
-            <Footer/>
-            <LoginRegister/>
-            <MobileMenu/>
+            <TeamMember />
+            <BrandLogo />
+            <Funfact classes="sp-top" />
+            <CallToAction />
+            <Footer />
+            <LoginRegister />
+            <MobileMenu />
         </Fragment>
     );
 };

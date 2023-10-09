@@ -6,7 +6,7 @@ const FeaturedBlog = ({title,thumb,publishDate,id}) => {
     return (
         <div className="single-blog-item">
             <div className="post-thumb">
-                <Link to={blogURL}><img src={require('../../assets/img/' + thumb)} alt={title} /></Link>
+                <Link to={blogURL}><img src={require('../../assets/img/about.jpg')} alt={title} /></Link>
             </div>
 
             <div className="post-info">

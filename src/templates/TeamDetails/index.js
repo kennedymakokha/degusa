@@ -13,7 +13,7 @@ const TeamDetailsPage = () => {
     return (
         <Fragment>
             <PageHeader
-                bgImg={require('../../assets/img/page-header.jpg')}
+                bgImg={require('../../assets/img/bc.jpg')}
                 title={teamMember.name}
                 content={teamMember.designation}
             />

@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "title": "New Business Strategy",
-    "excerpt": "We have great creative team they always ready to helped you. voluptatem quiase voluptase aspernatur auted fugit",
-    "thumb": "about_logo.jpg",
-    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p> <blockquote class='blockquote'><p>dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p></blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi quibusdam quos ratione rem saepe sequi sit unde ut velit vitae. Amet ea error expedita, laboriosam maxime officiis porro ut velit.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam assumenda culpa cumque debitis dignissimos, dolor dolores doloribus ducimus fuga iusto magni maiores minus nam numquam officiis provident quasi</p>",
+    "title": "From [Congo/Kenya/Sudan/South Sudan] to the World",
+    "excerpt": "Our mining operations span across multiple locations, including the rich gold deposits of Kalimva in Congo, Migori in Kenya, Kapoeta in Sudan, and Budi County in South Sudan. Discover our impactful projects that drive economic growth and sustainability.",
+    "thumb": "about.jpg",
+    "content": "<p>Our mining operations span across multiple locations, including the rich gold deposits of Kalimva in Congo, Migori in Kenya, Kapoeta in Sudan, and Budi County in South Sudan. Discover our impactful projects that drive economic growth and sustainability.</p>",
     "publishDate": "Feb 01, 2020",
     "author": {
       "name": "Alex Tuntuni",
       "designation": "Content Writer",
-      "proPic": "about_logo.jpg",
+      "proPic": "about.jpg",
       "socials": {
         "facebook": "hasthemes",
         "twitter": "hasthemes",
@@ -17,5 +17,4 @@
       }
     }
   }
- 
 ]

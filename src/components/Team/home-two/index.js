@@ -13,9 +13,9 @@ const Team = () => {
                     <div className="team-area-left text-center text-md-left">
                         <SectionTitle
                             variant="light"
-                            title="Creative Team"
-                            heading="We have great <br />creative team"
-                            text="<strong>Businex</strong> always try to provide the best Business Solutions for Clients to grow up their Business sharp and smoothly. We voluptatem voluptas aspernatur aut odit fugit, quia consequuur magni dolores eos qui ratione."
+                            title="Our Team"
+                            heading="Meet <br /> Our Experts"
+                            text="<strong>Our</strong> dedicated team of professionals brings together expertise, experience, and passion. Meet the faces behind our success and learn about their contributions to our mission."
                         />
                     </div>
                 </div>

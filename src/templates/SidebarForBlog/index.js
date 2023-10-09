@@ -58,7 +58,7 @@ const SidebarForBlog = ({ classes }) => {
                 </List>
             </SidebarItem>
 
-            <SidebarItem title={'FEATURED POSTS'} classes={'single-sidebar-item-wrap'}>
+            {/* <SidebarItem title={'FEATURED POSTS'} classes={'single-sidebar-item-wrap'}>
                 <div className={'latest-blog-widget'}>
                     {
                         Blogs.reverse().slice(0, 4).map(post => (
@@ -66,15 +66,15 @@ const SidebarForBlog = ({ classes }) => {
                         ))
                     }
                 </div>
-            </SidebarItem>
+            </SidebarItem> */}
 
             <SidebarItem classes={'single-sidebar-item-wrap'}>
                 <Newsletter />
             </SidebarItem>
 
-            <SidebarItem classes={'single-sidebar-item-wrap'}>
+            {/* <SidebarItem classes={'single-sidebar-item-wrap'}>
                 <img src={BannerImg} alt="Banner" />
-            </SidebarItem>
+            </SidebarItem> */}
         </Sidebar>
     );
 };

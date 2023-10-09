@@ -14,10 +14,10 @@ const BlogDetailsContentWrapper = ({post,sidebar}) => {
                             <div className="col-md-3 col-lg-2 order-1 order-md-0">
                                 <div className="author-info mt-sm-40">
                                     <div className="author-thumb">
-                                        <img src={require('../../assets/img/' + post.author.proPic)} alt={post.author.name} />
+                                        {/* <img src={require('../../assets/img/' + post.author.proPic)} alt={post.author.name} /> */}
                                     </div>
                                     <div className="author-txt">
-                                        <h5>{post.author.name} <span className="designation">{post.author.designation}</span></h5>
+                                        {/* <h5>{post.author.name} <span className="designation">{post.author.designation}</span></h5> */}
 
                                         <div className="member-social-icons">
                                             <a href={`https://facebook.com/${post.author.socials.facebook}`} target="_blank" rel='noopener noreferrer'>

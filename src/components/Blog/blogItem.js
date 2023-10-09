@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 function BlogItem(props) {
-    const blogURL = `/blog/${props.title.split(' ').join('-').toLocaleLowerCase()}?id=${props.id}`;
+    const blogURL = `/project/${props.title.split(' ').join('-').toLocaleLowerCase()}?id=${props.id}`;
     return (
         <div className='col-md-12 col-lg-12'>
             <div className="blog-item">
@@ -10,7 +10,7 @@ function BlogItem(props) {
                     props.thumb ? (
                         <figure className="blog-thumb">
                             <Link to={`${process.env.PUBLIC_URL + blogURL}`}>
-                                <img src={require('../../assets/img/next/' + props.thumb)} alt={props.title} />
+                                <img src={require('../../assets/img/' + props.thumb)} alt={props.title} />
                             </Link>
                         </figure>
                     ) : null
@@ -20,8 +20,8 @@ function BlogItem(props) {
                     <p>{props.excerpt}</p>
 
                     <div className="blog-meta">
-                        <Link to={`${process.env.PUBLIC_URL + blogURL}`}>By: {props.postBy}</Link>
-                        <Link to={`${process.env.PUBLIC_URL + blogURL}`}>{props.date}</Link>
+                        {/* <Link to={`${process.env.PUBLIC_URL + blogURL}`}>By: {props.postBy}</Link>
+                        <Link to={`${process.env.PUBLIC_URL + blogURL}`}>{props.date}</Link> */}
                     </div>
                 </div>
             </div>

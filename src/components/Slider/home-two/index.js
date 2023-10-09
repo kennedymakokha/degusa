@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 const SliderData = [
     {
         "id": 1,
-        "title": "Provide the best solutions for your business",
-        "text": "Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly.",
+        "title": "Extensive global network and industry connections",
+        "text": " Degussa Goldhandel AG always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly.",
         "bg": "slider/slide-1.jpg",
         "btnText": "Learn More",
         "btnLink": "/about"
     },
     {
         "id": 2,
-        "title": "Invest your money <br/> with us",
-        "text": "Businex always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly.",
+        "title": "Comprehensive Solutions",
+        "text": " Degussa Goldhandel AG always try to provide the best Business Solutions for Clients to grow up their Business very sharply and smoothly.",
         "bg": "slider/slide-2.jpg",
         "btnText": "Learn More",
         "btnLink": "/about"

@@ -4,18 +4,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 /*
 * @ All pages Import
 */
-import HomeOne from './pages/HomeOne'
 import HomeTwo from './pages/HomeTwo'
 import Service from './pages/Service'
-import ServiceDetails from "./pages/ServiceDetails";
-import BlogGridRightSidebar from './pages/BlogGridRightSidebar';
 import BlogGridLeftSidebar from './pages/BlogGridLeftSidebar';
-import BlogGridWithoutSidebar from './pages/BlogGridWithoutSidebar';
-import BlogListLeftSidebar from './pages/BlogListLeftSidebar';
-import BlogListRightSidebar from './pages/BlogListRightSidebar';
 import BlogDetailsPage from "./pages/BlogDetails";
 import Team from "./pages/Team";
-import TeamDetails from "./pages/TeamDetails";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
@@ -38,8 +31,8 @@ const App = () => {
                         component={BlogListLeftSidebar} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/blog-list-right-sidebar"}`}
                         component={BlogListRightSidebar} /> */}
-                    {/* <Route path={`${process.env.PUBLIC_URL + "/blog/:blogID"}`} component={BlogDetailsPage} /> */}
-                    {/* <Route exact path={`${process.env.PUBLIC_URL + "/team"}`} component={Team} /> */}
+                    <Route path={`${process.env.PUBLIC_URL + "/project/:blogID"}`} component={BlogDetailsPage} />
+                    <Route exact path={`${process.env.PUBLIC_URL + "/team"}`} component={Team} />
                     {/* <Route path={`${process.env.PUBLIC_URL + "/team-member/:teamID"}`} component={TeamDetails} /> */}
                     <Route exact path={`${process.env.PUBLIC_URL + "/about"}`} component={About} />
                     <Route exact path={`${process.env.PUBLIC_URL + "/contact"}`} component={Contact} />

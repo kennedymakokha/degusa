@@ -12,7 +12,7 @@ const BlogDetailsPage = ({sidebar}) => {
     return (
         <Fragment>
             <PageHeader
-                bgImg={require('../../assets/img/page-header.jpg')}
+                bgImg={require('../../assets/img/bc.jpg')}
                 title={post.title}
                 content={post.excerpt}
             />
