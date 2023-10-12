@@ -74,6 +74,8 @@ const PageAbout = () => {
                 title="ABOUT US"
                 content=" Degussa Goldhandel AG."
             />
+
+            
             <About
                 title={'Our Team'}
                 heading="Meet Our <br/> Expert Member"

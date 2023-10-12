@@ -4,6 +4,8 @@ import Widget from "../UI/Widget";
 import List from "../UI/List";
 import LI from "../UI/List/Item";
 import { Link } from "react-router-dom";
+import Ke from "./ke.png"
+import DRC from "./DRC.png"
 import Logo from '../../assets/img/logo1.png'
 
 function Footer() {
@@ -54,9 +56,10 @@ function Footer() {
                     <div className="col-md-4 col-lg-3">
                         <Widget title="Contact Us">
                             <address>
-                                4H9V+4GC, Kalimva, Democratic Republic of the Congo <br />
+                            <img src={DRC} alt="" height={20} width={20} /> 4H9V+4GC, Kalimva, Democratic Republic of the Congo <br />
+                                <img src={Ke} alt="" height={20} width={20} />Runda Grove, Runda, Nairobi, KE  <br />
                                 info@degusagoldhandelag.com <br />
-                                +243 974 933 239
+                                +243 974 933 239/+254 750 850356
                             </address>
                         </Widget>
                     </div>

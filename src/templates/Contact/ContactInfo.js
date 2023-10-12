@@ -1,7 +1,8 @@
-import React,{Fragment} from 'react';
+import React,{Fragment, useState} from 'react';
 import socialNetworks from '../../data/SocialNetworks/socials'
 
 const ContactInfo = ({address}) => {
+   
     return (
         <Fragment>
             <div className="widget-item m-0">
